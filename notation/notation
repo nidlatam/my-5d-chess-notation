@@ -1,0 +1,82 @@
+ok what would you need in a notation
+1. a way of showing coordinates:
+    xy|t||l|
+    x is the horizantal
+    y is vertical
+    t is time. It starts at 1
+    l is timeline. The first one is 0. If there is more than one starting it is addressed in line 11.
+    # if it blacked out or whited out. If the number is negative it is blacked out and if positive it will be whited out
+    if there are two starting boards
+    +0 and -0
+    so it could be 
+    A1|10||#2| would be 
+    physical coordinate A1
+    the time would be 10
+    the timeline would be timeline 2 and it would be whited out 
+
+    also one note
+    if there is a new timeline the first board on it will not be 1. That would just make it more confusing.
+    If you want to get the coordinate of the first board of a new timeline here is a tip.
+    just get the time coordinate of where you are moving to and yeah like that you get it.
+    
+    I did want to show if the board is white or black but we already know that from the piece that moves.
+2. a way of showing the thing that is moving plus the color:
+    + or - for white and black
+    letters for the pieces 
+    P for a pawn
+    R for a rook
+    B for a bishop
+    N for a knight
+    K for a king
+    Q for a queen
+    U for an unicorn
+    D for a dragon
+    so +D would be white dragon for example
+3. a way of showing movement:
+    lets use some arrows
+    -->
+    if it time travels and creates a new dimension
+    we put inside the -s the coordinate
+    so
+    -10->
+    and if it blacked or whited out (you can tell with the color of the piece moving)
+    -#10->
+    ok that's the arrow done
+
+    before the second coordinate
+    if there is a piece taken 
+    we show that piece with the opposite color
+    
+    oh and I forgot
+    check, checkmate
+    I am gonna have check be represented here
+    but checkmate and stalemate after all the movements
+    in the start if it makes a check do / in the start and end
+
+    now to combine this all lets give an example
+
+    /+D a1|20||0| -#2-> -B a2|19||1|/
+4. a way of showing multiple moves:
+    1=>1 (movement 1)
+    2=>2 (movement 2)
+    3=>3 (movement 3)
+5. a way of showing moves between timelines that do not cause another timeline
+    imagine there are timelines 1, 2 and 3
+    (they are ordered from top timeline coordinate to the bottem)
+    1=>3 (movement 1)
+    2=>2 (movement 2)
+    3<=1 return from 1
+extra: 6. checkmate and stalemate:
+    1=>3 (movement 1)
+    2=>2 (movement 2)
+    3<=1 return from 1
+
+    if this causes a checkmate in the end put
+    --checkmate
+    so
+    1=>3 (movement 1)
+    2=>2 (movement 2)
+    3<=1 return from 1
+    --checkmate
+    and if it is a stalemate(so draw) do --stalemate
+
