@@ -127,6 +127,68 @@ For softmates you will just do // in the start and end instead of /.
 
 Also softmates at checkmates (even if you can't time travel back) will be notated as // // and not / /.
 
+7.5 the present
+If you want to notate the present line for the time dimension
+you do Pr and after it how much after or before it (if it is before you use -)
+so
+Pr0
+Pr-2
+Pr3
+though if you are gonna use Pr you need to tell in the start the time coordinate of it
+so
+Pr = 10 (this has to be in the start of the moveset)
+
+7.6 promotion
+for the move just put ^ in the start and end.
+also if it is a check or softmate you put the ^ inside the slashes.
+
+7.7 notating full games
+
+Before we move onto games. What are movesets.
+A moveset is all the moves done in one advancement.
+
+it would be something like this
+
+Pr = 10
+1=>3 +N a1|Pr-2||-1| --> a1|Pr-1||1| 
+2=>2 +B e5|11||0| -#2-> e6|10||0|
+3=>1 return from 1
+
+we are gonna add { in the start and } in the end
+so
+
+{
+Pr = 10
+1=>3 +N a1|Pr-2||-1| --> a1|Pr-1||1| 
+2=>2 +B e5|11||0| -#2-> e6|10||0|
+3=>1 return from 1   
+}
+
+now to represent a game we just do something like this.
+
+1. {
+    (moveset 1)
+}
+2. {
+    (moveset 2)
+}
+3. {
+    (moveset 3)
+}
+
+and so on until the end of the game.
+
+You might be wondering about how we know if it's black or white.
+We already know from two things.
+The color of the pieces moving in the moves of the moveset.
+And also if the moveset number (so like moveset's 1 moveset number is 1) is odd it's white and if even it's black.
+That might be wierd but we kind of do not want to start from moveset 0 because that might be confusing.
+
+If we want to notate just one move we just do
+{
+(moveset)
+}
+that's it for the notation I think (If I forgot something I will try add it to the things I forgot in the seventh section).
 
 
 
