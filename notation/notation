@@ -80,3 +80,56 @@ extra: 6. checkmate and stalemate:
     --checkmate
     and if it is a stalemate(so draw) do --stalemate
 
+extra: 7. I forgot a lot
+
+7.1.
+
+ok there are things I forgot to add.
+first of all
+there are times where you get a checkmate not because the check can't be stopped. But because if you do stop it, you won't be able to move on the other board.
+Normally someone like Shad would say something like
+"This is the defenition of checkmate".
+But this is my notation so I do not care.
+
+If this happens you put in the end
+--stale-checkmate
+
+7.2.
+
+I kind of forgot that en pessant and castling exist
+lets deal with castling first
+
+we will use a new notation for castling
+
++ for white
+- for black
+>Q for queenside
+>K for kingside
+the board coordinates(no physical ones here)
+|t||l|
+so for example
++>K|20||2|
+
+7.3 now lest move on to en passant
+
+this one will be simple
+
+after the P for pawn you put
+// or \\.
+If the eaten pawn is right to the eating pawn it's //
+if vise versa it will be \\.
+
+7.4 softmates
+
+Simple enough.
+For cheks you did / in the start and end
+For softmates you will just do // in the start and end instead of /.
+
+Also softmates at checkmates (even if you can't time travel back) will be notated as // // and not / /.
+
+
+
+
+
+
+
